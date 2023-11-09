@@ -1,0 +1,100 @@
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+
+
+body {
+    background-color: lightcyan;
+    font-family: 'Poppins';
+    height: 100%;
+    width: 100%;
+}
+
+header {
+    height: 5%;
+    width: 100%;
+    background-color: bisque;
+}
+
+.s1 {
+    height: 40%;
+    width: 100%;
+    background-color: blanchedalmond;
+}
+
+.s2 {
+    height: 15%;
+    width: 100%;
+    background-color: azure;
+}
+
+.s3 {
+    height: 40%;
+    width: 100%;
+    background-color: aquamarine;
+}
+
+div > div {
+    padding: 0px 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid lightgray;
+}
+
+nav {
+    width: 600px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+li a:hover {
+    color: black;
+}
+
+li {
+    float: right;
+}
+
+.blackHeart {
+    width: 20px;
+    margin-right: 1rem;
+}
+
+form label {
+    color: rgba(0, 0, 0, 0.5);
+}
+
+form input {
+    color: gba(0,0,0,.05);
+}
+
+form button {
+    background-color: #fb3e44;
+    color: white;
+}
+
+#s1, #s2 {
+    display: flex;
+}
+
+#s1 {
+    justify-content: center;
+    height: 600px;
+    background-color: ba(232,217,217,.3);
+
+}
+
+.seePlans {
+    background-color: #FB3B49;
+    box-shadow: 8px 8px 0 rgba(251,59,73,.2);
+}
